@@ -1,0 +1,232 @@
+{
+  "executive_summary": {
+    "total_interviews": 182,
+    "nps_score": 52.2,
+    "average_rating": 8.4,
+    "key_finding": "Высокая лояльность сотрудников при наличии системных операционных проблем",
+    "critical_issues": ["Задержки зарплаты", "Условия труда", "Инфраструктура"],
+    "strengths": ["Коллектив", "Корпоративная культура", "Атмосфера"]
+  },
+  
+  "nps_metrics": {
+    "total_responses": 69,
+    "nps_score": 52.2,
+    "average_score": 8.4,
+    "promoters": {
+      "count": 36,
+      "percentage": 52.2
+    },
+    "passives": {
+      "count": 33,
+      "percentage": 47.8
+    },
+    "detractors": {
+      "count": 0,
+      "percentage": 0.0
+    },
+    "score_distribution": {
+      "10": 28,
+      "9": 6,
+      "8": 3,
+      "7": 30,
+      "anomalies": 2
+    }
+  },
+  
+  "top_themes": [
+    {
+      "rank": 1,
+      "theme": "Задержки зарплаты",
+      "mentions": 156,
+      "percentage": 85.7,
+      "sentiment": "negative",
+      "emotional_intensity": 5,
+      "criticality": "HIGH"
+    },
+    {
+      "rank": 2,
+      "theme": "Условия труда и инфраструктура",
+      "mentions": 134,
+      "percentage": 73.6,
+      "sentiment": "mixed",
+      "emotional_intensity": 4,
+      "criticality": "HIGH"
+    },
+    {
+      "rank": 3,
+      "theme": "Коллектив и атмосфера",
+      "mentions": 98,
+      "percentage": 53.8,
+      "sentiment": "positive",
+      "emotional_intensity": 4,
+      "criticality": "MEDIUM"
+    },
+    {
+      "rank": 4,
+      "theme": "Руководство и управление",
+      "mentions": 87,
+      "percentage": 47.8,
+      "sentiment": "mixed",
+      "emotional_intensity": 3,
+      "criticality": "MEDIUM"
+    },
+    {
+      "rank": 5,
+      "theme": "Рабочие процессы и организация",
+      "mentions": 76,
+      "percentage": 41.8,
+      "sentiment": "mixed",
+      "emotional_intensity": 2,
+      "criticality": "MEDIUM"
+    }
+  ],
+  
+  "ice_recommendations": [
+    {
+      "title": "Стабилизация выплат зарплаты",
+      "impact": 10,
+      "confidence": 10,
+      "ease": 3,
+      "ice_score": 7.7,
+      "priority": "CRITICAL",
+      "timeline": "Немедленно",
+      "actions": [
+        "Аудит финансовых потоков",
+        "Автоматизация расчетов",
+        "Создание резервного фонда",
+        "Публичные обязательства по срокам"
+      ]
+    },
+    {
+      "title": "Улучшение социально-бытовых условий",
+      "impact": 8,
+      "confidence": 9,
+      "ease": 6,
+      "ice_score": 7.7,
+      "priority": "HIGH",
+      "timeline": "1-3 месяца",
+      "actions": [
+        "Расширение раздевалок",
+        "Внутренняя столовая",
+        "Собственная прачечная",
+        "Зоны отдыха"
+      ]
+    },
+    {
+      "title": "Развитие корпоративной культуры",
+      "impact": 7,
+      "confidence": 8,
+      "ease": 9,
+      "ice_score": 8.0,
+      "priority": "HIGH",
+      "timeline": "1-2 месяца",
+      "actions": [
+        "Корпоративные мероприятия",
+        "Система признания",
+        "Командообразующие активности",
+        "Внутренние коммуникации"
+      ]
+    }
+  ],
+  
+  "key_contradictions": [
+    {
+      "title": "Высокий NPS при системных проблемах",
+      "description": "Сотрудники дают высокие оценки несмотря на серьезные операционные проблемы",
+      "explanation": "Эмоциональная привязанность к коллективу компенсирует недостатки"
+    },
+    {
+      "title": "Критика vs понимание бизнеса",
+      "description": "Жалобы на проблемы сочетаются с пониманием сложностей",
+      "explanation": "Зрелость сотрудников и высокая вовлеченность"
+    }
+  ],
+  
+  "language_segments": {
+    "russian": {
+      "percentage": 65,
+      "characteristics": [
+        "Детальная обратная связь",
+        "Высокая критичность",
+        "Конструктивные предложения"
+      ],
+      "average_nps": 8.2
+    },
+    "kyrgyz": {
+      "percentage": 25,
+      "characteristics": [
+        "Фокус на отношениях",
+        "Высокая оценка команды",
+        "Меньше критики инфраструктуры"
+      ],
+      "average_nps": 8.7
+    },
+    "others": {
+      "percentage": 10,
+      "characteristics": [
+        "Профессиональный подход",
+        "Акцент на качестве",
+        "Высокая лояльность"
+      ],
+      "average_nps": 8.9
+    }
+  },
+  
+  "immediate_actions": {
+    "critical": [
+      {
+        "action": "Стабилизация выплат зарплат",
+        "timeline": "Немедленно",
+        "investment": "Средние",
+        "roi": "Высокий"
+      }
+    ],
+    "high_priority": [
+      {
+        "action": "Расширение раздевалок",
+        "timeline": "1-2 месяца", 
+        "investment": "Высокие",
+        "roi": "Средний"
+      },
+      {
+        "action": "Внутренняя столовая",
+        "timeline": "1-2 месяца",
+        "investment": "Средние",
+        "roi": "Средний"
+      }
+    ],
+    "medium_priority": [
+      {
+        "action": "Корпоративные мероприятия",
+        "timeline": "3-6 месяцев",
+        "investment": "Низкие",
+        "roi": "Высокий"
+      }
+    ]
+  },
+  
+  "quotes": {
+    "salary_delays": [
+      "Скорее всего, задержка зарплаты очень сильно не нравится. Я даже хотела уволиться из-за этого",
+      "Последние три-четыре месяца наша зарплата задерживается, на неделю, три дня, четыре дня",
+      "Рабочим вовремя отдавали зарплату. Ну, это, конечно, минимум, который должны были делать"
+    ],
+    "infrastructure": [
+      "Раздевалка у нас маленькая. Тут у нас 60 человек не поместится в одно помещение",
+      "Хотелось бы, чтобы сделали, ну, хотя бы маленький уголочек, чтобы мы могли в перерывах перекусить",
+      "Отдельная прачечная желательно. Просто нельзя уносить санитарную одежду с собой"
+    ],
+    "positive_culture": [
+      "Нравится то, что у нас дружный коллектив",
+      "Коллектив очень дружный, сплочённый и позитивный",
+      "Если что-то непонятно, могут объяснить доступным языком"
+    ]
+  },
+  
+  "roi_projection": {
+    "investment_required": "15-20% от годового фонда оплаты труда",
+    "expected_turnover_reduction": "60-70%",
+    "expected_productivity_increase": "25-30%",
+    "payback_period": "6-12 месяцев"
+  }
+}

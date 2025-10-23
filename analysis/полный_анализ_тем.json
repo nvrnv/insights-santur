@@ -1,0 +1,213 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-09-28",
+    "total_interviews_analyzed": 186,
+    "methodology": "Semantic pattern matching with manual validation",
+    "note": "Полный анализ всех 10 тем на основе реальных данных из 186 интервью"
+  },
+  "complete_topics_comparison": [
+    {
+      "rank": 1,
+      "topic": "Задержки зарплаты",
+      "original_claim": {"percentage": 85.7, "sentiment": "Негативная"},
+      "actual_findings": {"percentage_interviews": 10.8, "sentiment": "Негативная"},
+      "discrepancy": -74.9,
+      "status": "КРИТИЧЕСКОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 2,
+      "topic": "Условия труда и инфраструктура", 
+      "original_claim": {"percentage": 73.6, "sentiment": "Смешанная"},
+      "actual_findings": {"percentage_interviews": 25.8, "sentiment": "Смешанная"},
+      "discrepancy": -47.8,
+      "status": "ЗНАЧИТЕЛЬНОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 3,
+      "topic": "Коллектив и атмосфера",
+      "original_claim": {"percentage": 53.8, "sentiment": "Позитивная"},
+      "actual_findings": {"percentage_interviews": 37.1, "sentiment": "Позитивная"},
+      "discrepancy": -16.7,
+      "status": "НЕБОЛЬШОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 4,
+      "topic": "Руководство и управление",
+      "original_claim": {"percentage": 47.8, "sentiment": "Смешанная"},
+      "actual_findings": {"percentage_interviews": 72.6, "sentiment": "Смешанная"},
+      "discrepancy": +24.8,
+      "status": "ЗАНИЖЕНИЕ - ТЕМА БОЛЕЕ ВАЖНА"
+    },
+    {
+      "rank": 5,
+      "topic": "Рабочие процессы и организация",
+      "original_claim": {"percentage": 41.8, "sentiment": "Смешанная"},
+      "actual_findings": {"percentage_interviews": 15.1, "sentiment": "Смешанная"},
+      "discrepancy": -26.7,
+      "status": "УМЕРЕННОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 6,
+      "topic": "Столовая и питание",
+      "original_claim": {"percentage": 34.1, "sentiment": "Негативная"},
+      "actual_findings": {"percentage_interviews": 51.1, "sentiment": "Смешанная"},
+      "discrepancy": +17.0,
+      "status": "ЗАНИЖЕНИЕ - ТЕМА БОЛЕЕ ВАЖНА"
+    },
+    {
+      "rank": 7,
+      "topic": "Раздевалки и санитарные условия",
+      "original_claim": {"percentage": 31.9, "sentiment": "Негативная"},
+      "actual_findings": {"percentage_interviews": 14.0, "sentiment": "Негативная"},
+      "discrepancy": -17.9,
+      "status": "УМЕРЕННОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 8,
+      "topic": "Развитие и карьерный рост",
+      "original_claim": {"percentage": 24.7, "sentiment": "Позитивная"},
+      "actual_findings": {"percentage_interviews": 62.4, "sentiment": "Позитивная"},
+      "discrepancy": +37.7,
+      "status": "КРИТИЧЕСКОЕ ЗАНИЖЕНИЕ - КЛЮЧЕВАЯ ТЕМА"
+    },
+    {
+      "rank": 9,
+      "topic": "Контроль качества и штрафы",
+      "original_claim": {"percentage": 18.7, "sentiment": "Негативная"},
+      "actual_findings": {"percentage_interviews": 5.9, "sentiment": "Негативная"},
+      "discrepancy": -12.8,
+      "status": "УМЕРЕННОЕ ЗАВЫШЕНИЕ"
+    },
+    {
+      "rank": 10,
+      "topic": "Форма и рабочая одежда",
+      "original_claim": {"percentage": 17.0, "sentiment": "Смешанная"},
+      "actual_findings": {"percentage_interviews": 12.4, "sentiment": "Смешанная"},
+      "discrepancy": -4.6,
+      "status": "НЕБОЛЬШОЕ ЗАВЫШЕНИЕ"
+    }
+  ],
+  "corrected_ranking_by_actual_data": [
+    {
+      "rank": 1,
+      "topic": "Руководство и управление",
+      "percentage": 72.6,
+      "status": "Самая обсуждаемая тема"
+    },
+    {
+      "rank": 2,
+      "topic": "Развитие и карьерный рост", 
+      "percentage": 62.4,
+      "status": "Критически недооцененная тема"
+    },
+    {
+      "rank": 3,
+      "topic": "Столовая и питание",
+      "percentage": 51.1,
+      "status": "Более важна чем считалось"
+    },
+    {
+      "rank": 4,
+      "topic": "Коллектив и атмосфера",
+      "percentage": 37.1,
+      "status": "Сильная сторона компании"
+    },
+    {
+      "rank": 5,
+      "topic": "Условия труда и инфраструктура",
+      "percentage": 25.8,
+      "status": "Требует внимания"
+    },
+    {
+      "rank": 6,
+      "topic": "Рабочие процессы и организация",
+      "percentage": 15.1,
+      "status": "Менее критично"
+    },
+    {
+      "rank": 7,
+      "topic": "Раздевалки и санитарные условия",
+      "percentage": 14.0,
+      "status": "Локальная проблема"
+    },
+    {
+      "rank": 8,
+      "topic": "Форма и рабочая одежда",
+      "percentage": 12.4,
+      "status": "Незначительная проблема"
+    },
+    {
+      "rank": 9,
+      "topic": "Задержки зарплаты",
+      "percentage": 10.8,
+      "status": "Реальная но не массовая проблема"
+    },
+    {
+      "rank": 10,
+      "topic": "Контроль качества и штрафы",
+      "percentage": 5.9,
+      "status": "Минимальная проблема"
+    }
+  ],
+  "key_insights": {
+    "most_overestimated": {
+      "topic": "Задержки зарплаты",
+      "difference": -74.9,
+      "note": "Проблема реальная, но затрагивает только 10.8% сотрудников, а не 85.7%"
+    },
+    "most_underestimated": {
+      "topic": "Развитие и карьерный рост", 
+      "difference": +37.7,
+      "note": "Критически важная тема для 62.4% сотрудников, была недооценена"
+    },
+    "biggest_ranking_changes": [
+      {
+        "topic": "Руководство и управление",
+        "original_rank": 4,
+        "actual_rank": 1,
+        "change": "+3 позиции"
+      },
+      {
+        "topic": "Развитие и карьерный рост",
+        "original_rank": 8,
+        "actual_rank": 2,
+        "change": "+6 позиций"
+      },
+      {
+        "topic": "Задержки зарплаты",
+        "original_rank": 1,
+        "actual_rank": 9,
+        "change": "-8 позиций"
+      }
+    ]
+  },
+  "business_recommendations": {
+    "immediate_priorities": [
+      "Улучшить качество руководства и управления (72.6% сотрудников)",
+      "Создать программы развития и карьерного роста (62.4% сотрудников)",
+      "Решить проблемы с питанием и столовой (51.1% сотрудников)"
+    ],
+    "medium_term_actions": [
+      "Сохранить и развить позитивную атмосферу в коллективе",
+      "Улучшить условия труда и инфраструктуру",
+      "Стабилизировать выплаты зарплаты для затронутых сотрудников"
+    ],
+    "low_priority_issues": [
+      "Раздевалки и санитарные условия (14.0%)",
+      "Рабочая одежда и форма (12.4%)",
+      "Контроль качества и штрафы (5.9%)"
+    ]
+  },
+  "methodology_conclusions": {
+    "data_quality_issues": [
+      "Критические расхождения в 7 из 10 тем",
+      "Неточная методология подсчета в исходном анализе",
+      "Смешение количества упоминаний с количеством затронутых сотрудников"
+    ],
+    "corrected_approach": [
+      "Подсчет процента интервью с упоминаниями, а не общего количества упоминаний",
+      "Семантический анализ с использованием регулярных выражений",
+      "Валидация результатов на реальных текстах интервью"
+    ]
+  }
+}
