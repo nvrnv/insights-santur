@@ -14,7 +14,7 @@ const Index = () => {
       {/* Заголовок с отступом */}
       <div className="w-full bg-white pt-20 pb-8">
         <div className="w-full max-w-6xl mx-auto text-center px-6">
-          <h1 className="text-2xl font-semibold leading-tight text-zinc-900 mb-4 md:text-4xl">SurwayHR для "Кортрос"</h1>
+          <h1 className="text-2xl font-semibold leading-tight text-zinc-900 mb-4 md:text-4xl">SurwayHR для "Сантехкомплект Урал"</h1>
           <p className="text-base max-w-2xl mx-auto text-slate-900">Отчет по исследованию на тему использования ИИ на работе и в компании. Анализ основан на изучении того, как сотрудники используют ИИ-инструменты в своей деятельности, какие задачи выполняют с их помощью и каких возможностей не хватает для более эффективного применения искусственного интеллекта.</p>
         </div>
       </div>
