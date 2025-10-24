@@ -146,3 +146,72 @@ All colors MUST be HSL.
     border: none !important;
   }
 }
+
+@layer components {
+  /* Reusable text styles */
+  .text-body {
+    @apply text-sm text-slate-900 leading-relaxed;
+  }
+  
+  .text-body-secondary {
+    @apply text-sm text-slate-600 leading-relaxed;
+  }
+  
+  .text-heading {
+    @apply text-xl font-semibold;
+  }
+  
+  .text-heading-large {
+    @apply text-2xl font-semibold leading-tight;
+  }
+
+  /* Reusable layout styles */
+  .container-main {
+    @apply max-w-6xl mx-auto px-6 py-8 space-y-8;
+  }
+  
+  .section-spacing {
+    @apply space-y-6;
+  }
+  
+  .card-spacing {
+    @apply space-y-4;
+  }
+
+  /* Reusable card styles */
+  .card-standard {
+    @apply border border-border shadow-none rounded-lg;
+    box-shadow: none;
+  }
+  
+  .card-elevated {
+    @apply border border-border rounded-lg;
+    box-shadow: var(--shadow-card);
+  }
+
+  /* Reusable navigation styles */
+  .nav-tab {
+    @apply flex items-center gap-2 px-4 py-1.5 rounded-md font-normal transition-all duration-300 ease-in-out text-sm focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+  
+  .nav-tab-active {
+    @apply bg-black text-white hover:bg-black;
+  }
+  
+  .nav-tab-inactive {
+    @apply text-black border-0 bg-transparent hover:bg-gray-200;
+  }
+
+  /* Reusable insight styles */
+  .insight-item {
+    @apply flex items-start gap-2;
+  }
+  
+  .insight-dot {
+    @apply w-4 h-4 bg-yellow-400 rounded-full flex-shrink-0 mt-0.5;
+  }
+  
+  .insight-text {
+    @apply text-sm text-slate-900 leading-relaxed;
+  }
+}

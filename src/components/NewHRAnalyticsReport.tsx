@@ -6,7 +6,7 @@ import {
   PieChart as PieChartIcon, 
   Lightbulb
 } from 'lucide-react';
-import QuestionsAnalysis from './tabs/QuestionsAnalysis';
+import DetailedOverview from './DetailedOverview';
 import ENPSAnalysis from './tabs/ENPSAnalysis';
 import QualitativeAnalysis from './tabs/QualitativeAnalysis';
 import QuantitativeAnalysis from './tabs/QuantitativeAnalysis';
@@ -46,7 +46,7 @@ const HRAnalyticsReport = () => {
   const renderTabContent = () => {
     switch (activeTab) {
       case 'questions':
-        return <QuestionsAnalysis />;
+        return <DetailedOverview />;
       case 'enps':
         return <ENPSAnalysis />;
       case 'qualitative':

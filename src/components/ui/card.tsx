@@ -1,24 +1,51 @@
 import * as React from "react"
+import { cva, type VariantProps } from "class-variance-authority"
 
 import { cn } from "@/lib/utils"
 
-const Card = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "rounded-xl bg-white/80 backdrop-blur-sm border border-white/20 text-card-foreground",
-      className
-    )}
-    style={{ 
-      boxShadow: 'var(--shadow-card)',
-      transition: 'var(--transition-smooth)'
-    }}
-    {...props}
-  />
-))
+const cardVariants = cva(
+  "rounded-xl bg-white/80 backdrop-blur-sm border text-card-foreground",
+  {
+    variants: {
+      variant: {
+        default: "border-white/20",
+        standard: "border-border shadow-none",
+        elevated: "border-border",
+        outlined: "border-border bg-transparent"
+      },
+      shadow: {
+        none: "shadow-none",
+        soft: "shadow-soft",
+        card: "shadow-card",
+        elevated: "shadow-elevated"
+      }
+    },
+    defaultVariants: {
+      variant: "default",
+      shadow: "card"
+    }
+  }
+)
+
+export interface CardProps
+  extends React.HTMLAttributes<HTMLDivElement>,
+    VariantProps<typeof cardVariants> {}
+
+const Card = React.forwardRef<HTMLDivElement, CardProps>(
+  ({ className, variant, shadow, ...props }, ref) => (
+    <div
+      ref={ref}
+      className={cn(cardVariants({ variant, shadow }), className)}
+      style={{ 
+        boxShadow: shadow === 'card' ? 'var(--shadow-card)' : 
+                   shadow === 'elevated' ? 'var(--shadow-elevated)' :
+                   shadow === 'soft' ? 'var(--shadow-soft)' : 'none',
+        transition: 'var(--transition-smooth)'
+      }}
+      {...props}
+    />
+  )
+)
 Card.displayName = "Card"
 
 const CardHeader = React.forwardRef<
